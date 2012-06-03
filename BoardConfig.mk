@@ -12,6 +12,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=e0
 BOARD_KERNEL_BASE := 0x00200000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_LDPI_RECOVERY := true
+BOARD_HAS_JANKY_BACKBUFFER := true
 
 # fix this up by examining /proc/mtd on a running device
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x105c0000
